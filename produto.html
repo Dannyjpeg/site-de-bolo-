@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #ffe6f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff66b2;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            color: #ff66b2;
+            padding: 80px 20px;
+            background-color: #fff;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff66b2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ff66b2;
+            border-radius: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            background-color: #fff;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff66b2;
+            text-align: center;
+            padding: 15px;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .social a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Delícias de Bolos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logotipo Delícias de Bolos">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="produto-detalhes">
+            <h2>Nossos Bolos</h2>
+            <!-- Exemplo de card de produto -->
+            <div class="card-produto">
+                <img src="img/produtos/bolo1.jpg" alt="Bolo de Chocolate">
+                <h3>Bolo de Chocolate</h3>
+                <p>Descrição: Bolo de chocolate com recheio de brigadeiro.</p>
+                <p>Preço: R$30,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <!-- Repita para outros produtos -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Mesmo footer com informações e redes sociais -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delícias de Bolos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: url('https://static.vecteezy.com/ti/vetor-gratis/p1/4301642-very-cute-seamless-pattern-design-of-ice-cream-sprinkle-isolated-on-white-background-adequado-para-embrulho-papel-papel-parede-tecido-pano-de-fundo-e-etc-gratis-vetor.jpg') repeat;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff66b2;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            color: #ff66b2;
+            padding: 80px 20px;
+            background-color: #fff;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff66b2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .produtos {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ff66b2;
+            border-radius: 10px;
+            padding: 15px;
+            width: 180px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff66b2;
+            text-align: center;
+            padding: 15px;
+            color: #fff;
+        }
+        .social a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logotipo Delícias de Bolos">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Delícias de Bolos</h1>
+            <p>Os melhores bolos feitos com amor e ingredientes frescos.</p>
+            <a href="produto.html" class="btn">Veja nossos produtos</a>
+        </section>
+
+        <section class="produtos">
+            <h2 style="width: 100%; text-align: center; color: #ff66b2; margin-bottom: 20px;">Nossos Bolos</h2>
+
+            <!-- Primeira linha de produtos -->
+            <div class="card">
+                <img src="img/produtos/bolo1.jpg" alt="Bolo de Chocolate">
+                <h3>Bolo de Chocolate</h3>
+                <p>R$30,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo2.jpg" alt="Bolo de Morango">
+                <h3>Bolo de Morango</h3>
+                <p>R$35,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo3.jpg" alt="Bolo de Baunilha">
+                <h3>Bolo de Baunilha</h3>
+                <p>R$28,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo4.jpg" alt="Bolo de Cenoura">
+                <h3>Bolo de Cenoura</h3>
+                <p>R$32,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo5.jpg" alt="Bolo de Limão">
+                <h3>Bolo de Limão</h3>
+                <p>R$29,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+        </section>
+
+        <!-- Segunda linha de produtos -->
+        <section class="produtos">
+            <div class="card">
+                <img src="img/produtos/bolo6.jpg" alt="Bolo de Nozes">
+                <h3>Bolo de Nozes</h3>
+                <p>R$40,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo7.jpg" alt="Bolo de Maracujá">
+                <h3>Bolo de Maracujá</h3>
+                <p>R$33,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo8.jpg" alt="Bolo de Abacaxi">
+                <h3>Bolo de Abacaxi</h3>
+                <p>R$36,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo9.jpg" alt="Bolo de Coco">
+                <h3>Bolo de Coco</h3>
+                <p>R$34,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="card">
+                <img src="img/produtos/bolo10.jpg" alt="Bolo de Frutas Vermelhas">
+                <h3>Bolo de Frutas Vermelhas</h3>
+                <p>R$42,00</p>
+                <a href="produto.html" class="btn">Ver Mais</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Delícias de Bolos. Todos os direitos reservados.</p>
+        <div class="social">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>
